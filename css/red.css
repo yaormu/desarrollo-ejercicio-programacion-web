@@ -1,0 +1,20 @@
+:root {
+    --color: #c71e1ebe;
+}
+
+body {
+    background: url(../img/rojo.jpg);
+    background-attachment: fixed;
+}
+
+#logo {
+    background: var(--color);
+}
+
+#menu ul li:hover {
+    background: var(--color);
+}
+
+.button-more {
+    background: var(--color);
+}
