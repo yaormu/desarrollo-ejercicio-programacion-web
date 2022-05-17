@@ -64,7 +64,8 @@ p {
 }
 
 .menu a:active {
-    background-color: rgba(0, 255, 255, 0.295);
+    background-color: rgb(3, 85, 85);
+    border-radius: 20px;
 }
 
 .main {
