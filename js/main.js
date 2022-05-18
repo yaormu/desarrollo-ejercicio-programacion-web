@@ -23,3 +23,5 @@ const color3 = () => {
         color.style.backgroundColor = colorin;
     }
 })();  
+
+// Acordeon

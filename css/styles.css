@@ -15,6 +15,10 @@ p {
     line-height: 25px;
 }
 
+.ul {
+    margin: 100px 0px 100px 0px;
+}
+
 .wrapper {
     width: 100%;
     height: 100%;
@@ -101,7 +105,7 @@ p {
 }
 
 .main-info p {
-    margin: 0;
+    margin: 0px 0px 0px 23px;
 }
 
 .main-info li {
@@ -214,4 +218,25 @@ span {
 
 .color3 {
     background: #30323f;
+}
+
+details {
+    background: rgba(28, 146, 146, 0.466);
+    padding: .5rem;
+    border-radius: 6px;
+    margin: .5rem;
+    cursor: pointer;
+}
+
+summary {
+    list-style: none;
+}
+
+summary::before {
+    content: '+';
+    padding-right: 1rem;
+}
+
+details[open] summary::before {
+    content: '-';
 }
